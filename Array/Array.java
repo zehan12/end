@@ -68,5 +68,19 @@ class Array {
             System.out.println(numbersArrays[i]);
         }
 
+        // define 2D matrix array
+        int[][] matrix = {
+                { 1, 2, 3 },
+                { 4, 5, 6 },
+                { 7, 8, 9 }
+        };
+
+        // print value of matrix array
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.println(matrix[i][j]);
+            }
+        }
+
     }
 }
