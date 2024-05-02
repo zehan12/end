@@ -9,8 +9,15 @@ func pattern(x int) {
 		}
 		fmt.Println("")
 	}
+
+	for k := 0; k <= x; k++ {
+		for l := 1; l <= x-k; l++ {
+			fmt.Print("*")
+		}
+		fmt.Println("")
+	}
 }
 
 func main() {
-	pattern(8)
+	pattern(3)
 }
