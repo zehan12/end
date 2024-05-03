@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func pattern(x int) {
-	for i := 0; i <= x; i++ {
+	for i := 0; i < x; i++ {
 		for j := 0; j <= x-i; j++ {
 			fmt.Print(" ")
 		}
@@ -17,5 +17,5 @@ func pattern(x int) {
 }
 
 func main() {
-	pattern(9)
+	pattern(3)
 }
