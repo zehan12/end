@@ -1,4 +1,4 @@
-package Math.count_digits;
+package Basic_Math.count_digits;
 
 public class CountDigit {
     public static void main(String[] args) {

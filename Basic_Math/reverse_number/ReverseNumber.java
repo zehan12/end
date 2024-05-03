@@ -1,4 +1,4 @@
-package Math.reverse_number;
+package Basic_Math.reverse_number;
 
 /**
  * ReverseNumber
