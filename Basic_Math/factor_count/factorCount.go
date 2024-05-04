@@ -11,8 +11,7 @@ func factorCount(n int) int {
 				divisors = append(divisors, i)
 				factorCount += 1
 			} else {
-				divisors = append(divisors, i)
-				divisors = append(divisors, n/i)
+				divisors = append(divisors, i, n/i)
 				factorCount += 2
 			}
 		}

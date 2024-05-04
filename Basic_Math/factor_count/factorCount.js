@@ -7,8 +7,7 @@ const factorCount = (n) => {
             divisors.push(i);
             factorCount += 1;
         } else {
-            divisors.push(i);
-            divisors.push(n/i);
+            divisors.push(i,n/i);
             factorCount += 2;
         }
     }
