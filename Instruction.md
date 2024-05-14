@@ -1,4 +1,4 @@
-# Commands to Code
+# Commands to Run Code
 
 ### Java
 ```
@@ -23,4 +23,9 @@ go run filePath/fileName
 ### Python
 ```
 python3 filePath/fileName
+```
+
+### Ruby
+```
+ruby filePath/fileName
 ```
