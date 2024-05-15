@@ -4,7 +4,7 @@ const armstrongNumberTs = (n: number): number => {
     while (n > 0) {
         let lastDigit = n % 10;
         result += lastDigit ** digitCount;
-        n = parseInt(String(n / 10));
+        n = Math.floor(n / 10);
     }
     return result;
 };
