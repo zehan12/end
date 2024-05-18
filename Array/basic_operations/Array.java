@@ -1,4 +1,4 @@
-package Array;
+package Array.basic_operations;
 
 /**
  * Array

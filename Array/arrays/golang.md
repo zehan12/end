@@ -1,4 +1,4 @@
-# Arrays is Golang
+# Array in Golang
 
 #### Note :
 - `len` is a built-in function that returns the number of items in an array of slice
