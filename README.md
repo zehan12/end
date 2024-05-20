@@ -1,1 +1,1 @@
-# DSA
+# The only shortcut to life is to never miss a day. because sometimes you get lucky. and you'll never miss a lucky day. if you try every day.
