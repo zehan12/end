@@ -1,6 +1,6 @@
 package Array.greater_than_itself;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         int[] items = new int[] { -3, 2, 6, 8, 4, 8, 5 };
         int[] items2 = new int[] { 2, 3, 10, 7, 3, 2, 10, 8 };
