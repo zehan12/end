@@ -1,6 +1,6 @@
 def paris(arr,k)
     for i in 0...arr.size
-        for j in i...arr.size
+        for j in i+1...arr.size
             if arr[i] + arr[j] == k
                 return true
             end

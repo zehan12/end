@@ -10,7 +10,7 @@ public class Main {
 
     public static boolean pairs(int[] arr, int k) {
         for ( int i = 0 ; i < arr.length ; i++ ) {
-            for ( int j = i ; j < arr.length ; j++ ) {
+            for ( int j = i + 1 ; j < arr.length ; j++ ) {
                 if ( arr[i] + arr[j] == k ) {
                     return true;
                 }

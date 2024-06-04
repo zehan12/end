@@ -5,7 +5,7 @@ import "fmt"
 func paris(arr []int, k int) bool {
 
 	for i := 0; i < len(arr); i++ {
-		for j := i; j < len(arr); j++ {
+		for j := i + 1; j < len(arr); j++ {
 			if arr[i]+arr[j] == k {
 				return true
 			}

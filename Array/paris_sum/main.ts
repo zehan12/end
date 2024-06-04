@@ -1,6 +1,6 @@
 const parisTs = (arr: number[], k: number): boolean => {
     for (let i = 0; i < arr.length; i++) {
-        for (let j = i; j < arr.length; j++) {
+        for (let j = i + 1; j < arr.length; j++) {
             if (arr[i] + arr[j] == k) {
                 return true;
             }

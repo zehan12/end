@@ -1,6 +1,6 @@
 def pairs(arr: list[int], k: int)-> bool:
     for i in range(0,len(arr)):
-        for j in range(i,len(arr)):
+        for j in range(i+1,len(arr)):
             if ( arr[i] + arr[j] == k ):
                 return True
 
