@@ -2,16 +2,16 @@ func isPalindrome(x int) bool {
     if ( x < 0 ){
         return false
     }
-    result := 0;
+    reverse := 0;
     original := x;
-    value := 0;
+    lastDigit := 0;
     for x > 0 {
-        value = x % 10;
+        lastDigit = x % 10;
         x = x / 10;
-        result = 10 * result + value;
+        reverse = 10 * reverse + lastDigit;
     }
     
-    if ( result == original ) {
+    if ( reverse == original ) {
         return true;
     }
     return false;
