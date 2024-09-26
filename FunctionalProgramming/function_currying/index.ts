@@ -44,3 +44,4 @@ const sum2 = curry(normal_sum);
 
 // Test the curried sum2 function
 console.log(sum2(10)(20)); // Output: 30
+
