@@ -1,2 +1,2 @@
-- do power number with bitwise to optimise code
+- do power number with bitwise to optimize code
 - do power with recursion
