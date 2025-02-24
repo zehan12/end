@@ -14,7 +14,6 @@ var majorityElement = function(nums) {
     }
 
     for ( let key in hash ) {
-        console.log("key",key,"value",hash[key]);
         let count = hash[key];
         if ( count > n / 2 ) {
             return +key;
